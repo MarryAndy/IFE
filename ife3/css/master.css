@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.main,.left,.mid,.right{
+  border: 1px solid #999;
+  padding: 20px;
+  background-color: white;
+}
+.main{
+background: #eee !important;
+overflow: auto;
+}
+.left{
+  float: left;
+  width:200px;
+}
+.left h3{
+  float: right;
+}
+.leftjpg{
+  width: 80px;
+  height: 80px;
+}
+.right{
+  float: right;
+  width: 120px;
+}
+.rightjpg{
+width: 80px;
+height: 80px;
+margin-top: 8px;
+margin-left: 1px;
+}
+.mid{
+   margin: 0 190px 0 270px;
+}
