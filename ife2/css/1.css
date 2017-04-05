@@ -123,24 +123,14 @@ figure{
   aside h4{
       padding-top: 20px;
       padding-left:20px;
+}
 
+  aside table .tips{
+    color: red;
+    font-size: 5px;
   }
-  aside form div{
-      font-size: 14px;
-      margin:20px 0;
-  }
-
-  aside form div .tips{
-      float:left;           /*添加后个人描述四个字才和文本域上对齐*/
-      text-align:right;
-      width:35%;
-      padding-right:15px;
-  }
-  aside form div p{
-      margin-left:35%;
-      padding-left:15px;
-      font-size:12px;
-      color: red;
+  aside table .m{
+     float: right;
   }
   aside textarea{
       width:50%;
