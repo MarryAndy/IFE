@@ -1,0 +1,160 @@
+a:hover{
+  color: red;
+}
+body{
+  background: #DEDEDE;
+}
+article{
+  margin: 0 370px 0 15px;
+  margin-right: 370px;
+  background-color: #ffffff;
+  box-shadow: 3px 5px 5px #888888;
+  padding: 0px 10px 10px 10px;
+}
+aside {
+  position: absolute;
+  float: right;
+  top:85px;
+  right:5px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #888888;
+  margin-right: 20px;
+}
+header{
+  background-color:  #7f79e9;
+  margin: 15px;
+  height: 50px;
+
+}
+footer{
+    background-color:  #7f79e9;
+    height: 50px;
+}
+.weibu{
+  text-align: center;
+  color: white;
+  padding-top: 16px;
+  font-size: 5px;
+}
+.logo1{
+  width: 130px;
+  float: left;
+  margin-left: 50px;
+}
+
+nav{
+  float: right;
+  padding-right: 20px;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li {
+    float: left;
+    font-size: 15px;
+    padding-right: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+/*导航链接四*/
+.a-first{
+  color: rgb(109, 116, 116);
+}
+
+ h2{
+   padding-left: 1em;
+   padding-top: 1em;
+
+ }
+h3{
+  color: rgb(124, 131, 129);
+  font-size: 1em;
+  padding-left: 1.5em;
+}
+
+.wz{
+  font-size: 0.5em;
+  color: rgb(159, 159, 151);
+  padding-left: 2em;
+}
+article p{
+    margin-top: 10px;
+    text-indent: 2em;
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+img{
+  padding-left: 20px;
+}
+ul{
+  padding-bottom: 20px;
+}
+figure{
+    margin-left: 80px;
+    border: 1px solid gray;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+  figure>img{
+   margin-top: 10px;
+   height: 75%;
+   width: 75%;
+  }
+  ol{
+    margin-left: 20px;
+  }
+  table{
+    width: 100%;
+    border:2px;
+    border-collapse: collapse;
+}
+  thead{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  th{
+    text-align: left;
+  }
+  th,td{
+    padding: 10px;
+}
+  tfoot{
+    background-color: gray;
+  }
+  .biao{
+    margin-left: 2em;
+  }
+  aside h4{
+      padding-top: 20px;
+      padding-left:20px;
+}
+
+  aside table .tips{
+    color: red;
+    font-size: 5px;
+  }
+  aside table .m{
+     float: right;
+  }
+  aside textarea{
+      width:90%;
+      height:100px;
+
+  }
+  aside .submitButton{
+    margin-left: 30px;
+    width:80%;
+    height:40px;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border:none;
+    margin-bottom: 20px;
+  }
+  aside .submitButton:hover{
+    background: rgb(50, 48, 140);
+  }
