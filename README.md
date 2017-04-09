@@ -10,5 +10,5 @@ ife3中  三栏式布局
 ife4 定位和居中问题
   3个div 定位均为用绝对定位:absolute来安排布局。
 
-ife4
+ife5
   right 用position: absolute；+ float: right实现。
