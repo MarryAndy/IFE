@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-  background-color: gray;
+    background-color: #44565C;
 }
 .main{
   width: 892px;
@@ -14,6 +14,7 @@ body{
 }
 header{
   position: relative;
+  margin-bottom: 30px;
 }
 header .smallred{
   width: 110px;
@@ -37,9 +38,12 @@ header .po{
   right: 0px;
   bottom: 0px;
 }
+.onehr{
+  border-top: 2px solid #938e8c;
+  width: 892px;
+}
 .one{
   position: relative;
-  margin-top: 15px;
 }
 .one .pic img{
   width: 641px;
@@ -152,31 +156,164 @@ header .po{
   .what4{
     position: absolute;
     top: 90px;
-    right: 30px;
+    right: 40px;
   }
   .what4 p{
     color: #231815;
 	  opacity:70%;
 	  margin-bottom: 16px;
+    font-size: 14px;
   }
   .three{
-      width: 892px;
-      position:relative;
-      top: 0px;
+    clear: both;
   }
   .three .Left{
     width: 415px;
-    position:absolute;
-    top: 0px;
-    left: 0px;
+    float: left;
+  }
+   .the span{
+    font-size: 72px;
+    color: #f5e327;
+  }
+  .the p{
+    font-size: 42px;
+    color: #11456b;
+    margin-bottom: 16px;
+  }
+  .threehr{
+    border: 2px #11456b solid;
+    margin-bottom: 20px;
+  }
+  .qian span{
+    font-size: 70px;
+	color: #f5e327;
+	float: left;
+	padding: 20px 10px 30px 0;
+  }
+  .qian p{
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+  }
+  .qian .partwo{
+    text-indent: 2em;
+  }
+  .qian .parthree{
+    text-indent: 2em;
+  }
+  .qian img{
+    float: right;
+    padding:5px;
   }
   .three .Right{
-    width: 300px;
-    position: absolute;
-    top: 0px;
-    right: 150px;
-  }
-  .imgright img{
+    float: right;
     width: 458px;
     height: 275px;
   }
+
+  .imgright{
+    position: relative;
+    top: 15px;
+  }
+  .imgright2{
+    width: 458px;
+    height: 61px;
+    background-color: black; opacity: 0.5;
+    position: absolute;
+    bottom: 5px;
+  }
+  .describe{
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .des_one{
+    font-size: 26px;
+    color: #fff;
+  }
+  .des_two{
+    font-size: 12px;
+    color: #72b16a;
+  }
+  .Rightdown{
+    width: 459px;
+    height: 318px;
+    background-color:  #eeedd6;
+    position: relative;
+    top:55px;
+  }
+  .Rightdown .mark_one{
+    font: 16px/41px "宋体";
+    margin-left: 30px;
+  }
+  .Rightdown .mark_word{
+    font:italic 12px "Microsoft YaHei";
+  }
+  .Rightdown .triangle{
+   width: 0;
+	 height: 0;
+	 border-left:5px solid transparent;
+	 border-right: 5px solid transparent;
+	 border-bottom: 10px solid #10456b;
+	 display: inline-block;
+  }
+  .reddown{
+    width: 260px;
+    height: 160px;
+    background-color: #ea2d70;
+    position: absolute;
+    bottom: 0px;
+  }
+  .reddown span{
+    font-size: 110px;
+    color: #fff;
+  }
+  .reddown .line{
+    border-left:2px solid #ffffff;
+  	height:86px;
+    position: absolute;
+      top: 30px;
+      left: 70px;
+  }
+  .mark_kk{
+    font: italic 21px/24px "黑体";
+	  color: #fff;
+    margin-left:10px;
+	 }
+   .mark_two{
+     font-size: 12px;
+     color: #fff;
+     margin-left: 10px;
+   }
+   .world{
+     width: 190px;
+     height: 130px;
+     position: absolute;
+    bottom: 10px;
+    right: 0px;
+   }
+   .world p span{
+     font: 72px "黑体";
+   }
+   .mark_a{
+     float: left;
+  color: red;
+  margin: -30px 10px 0 -40px;
+   }
+   .mark_b{
+     float: right;
+     color: red;
+   }
+   footer{
+     position: relative;
+     top: 10px;
+     clear:both;
+   	width: 892px;
+   	height: 59px;
+   	border-top: 1px solid #938e8c;
+   }
+   .ifefoot{
+     float: right;
+     font: 12px "黑体";
+     color: #d45d5c;
+
+   }
